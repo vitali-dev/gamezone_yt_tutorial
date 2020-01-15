@@ -34,6 +34,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
   },
   header: {
+    marginTop: 26,
     width: '100%',
     height: '100%',
     flexDirection: 'row',
@@ -48,7 +49,8 @@ const styles = StyleSheet.create({
   },
   icon: {
     position: 'absolute',
-    left: 1,
+    left: 16,
+    alignItems: 'center',
   },
   headerImage: {
     width: 26,
